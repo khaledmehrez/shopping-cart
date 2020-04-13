@@ -1,0 +1,66 @@
+/*Navbar*/
+
+
+
+
+
+/*body*/
+
+.card{
+    border:none;
+}
+.devices1{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    height:20vh;
+    margin-top:5vh;
+    text-shadow: 2px 2px 5px red;
+}
+.devices2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top:10%;
+
+}
+
+.removeobj{
+    display: none;
+    width:30px;
+    height:30px;
+}
+
+
+
+/*modal*/
+#here{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    
+    
+}
+#here img{
+    
+    width:50px;
+}
+
+@media (max-width: 600px) {
+    .devices1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        margin-left:20%;
+    }
+        .devices2 {
+            display: flex;
+            justify-content: space-between;
+            margin-top:10%;
+            flex-direction: column;
+            text-align: center;
+            margin-left:20%;
+        }
+    
+}
